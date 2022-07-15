@@ -28,6 +28,13 @@
 }
 .block p {
     margin: 0;
+    padding: 20px;
+}
+
+fieldset {
     border: solid rgb(49, 49, 49) 1px;
-    padding: 30px;
+}
+
+legend {
+    font-size: 30px;
 }
