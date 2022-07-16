@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import '../index.css';
+import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -29,13 +29,14 @@ const Login = () => {
 
 	return (
 		<div style={{ fontFamily: "'Open Sans', sans-serif" }}>
+			<Navbar />
 			<div className='card'>
 				<h1>Log in</h1>
 				<form id='form1' action='./Home'>
 					<div className='input1'>
-						<lable forHtml='email' className='email '>
+						<label forHtml='email' className='email '>
 							Email address
-						</lable>
+						</label>
 
 						<input
 							type='email'
@@ -46,9 +47,9 @@ const Login = () => {
 						/>
 					</div>
 					<div className='input2'>
-						<lable forHtml='password' className='password'>
+						<label forHtml='password' className='password'>
 							Password
-						</lable>
+						</label>
 						<div className='buttonIn'>
 							<input
 								id='eye'
@@ -66,7 +67,7 @@ const Login = () => {
 					</div>
 
 					<a href='/' id='Forget'>
-						Forget password?
+						Forgot password?
 					</a>
 					<button type='submit' form='form1' className='loginform-button'>
 						LOGIN

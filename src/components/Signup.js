@@ -1,6 +1,7 @@
 import React from 'react';
 import './Signup.css';
 import '../index.css';
+import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -17,17 +18,27 @@ export default function Signup() {
 	};
 	return (
 		<div>
+			<Navbar />
 			<div className='card'>
 				<h1>Sign up</h1>
 				<form action='./Home.js'>
-					
 					<div className='input0'>
-						<lable forHtml='email' className='email'>User name</lable>
-						<input type='text' required className='form-control' id='exampleFormControlInput1' placeholder='Enter your username' />
+						<lable forHtml='email' className='email'>
+							User name
+						</lable>
+						<input
+							type='text'
+							required
+							className='form-control'
+							id='exampleFormControlInput1'
+							placeholder='Enter your username'
+						/>
 					</div>
-					
+
 					<div className='input1'>
-						<lable forHtml='email' className='email'>Email address</lable>
+						<lable forHtml='email' className='email'>
+							Email address
+						</lable>
 
 						<input
 							type='email'
@@ -37,9 +48,11 @@ export default function Signup() {
 							placeholder='name@gmail.com'
 						/>
 					</div>
-					
+
 					<div className='input2'>
-						<lable forHtml='password' className='password'>Password</lable>
+						<lable forHtml='password' className='password'>
+							Password
+						</lable>
 
 						<input
 							type='password'
@@ -51,9 +64,11 @@ export default function Signup() {
 							placeholder='Enter your password'
 						/>
 					</div>
-					
+
 					<div className='input3'>
-						<lable forHtml='Confirm Password' className='confirmpassword'>Confirm Password</lable>
+						<lable forHtml='Confirm Password' className='confirmpassword'>
+							Confirm Password
+						</lable>
 
 						<input
 							type='password'
@@ -66,7 +81,9 @@ export default function Signup() {
 						/>
 					</div>
 
-					<button type='submit' className='loginform-button'>Sign up</button>
+					<button type='submit' className='loginform-button'>
+						Sign up
+					</button>
 				</form>
 				<hr />
 				<FontAwesomeIcon style={myStyle} icon={faGoogle} />
