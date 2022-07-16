@@ -90,7 +90,7 @@ export default function Signup() {
 				<FontAwesomeIcon style={myStyle} icon={faFacebook} />
 				<FontAwesomeIcon style={myStyle} icon={faLinkedin} />
 				<p>
-					Already a user?<Link to='/Login'> Log in</Link>
+					Already a user?<Link to='/'> Log in</Link>
 				</p>
 			</div>
 		</div>
