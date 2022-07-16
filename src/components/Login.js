@@ -33,7 +33,7 @@ const Login = () => {
 
   <div className='card'>
     <h1>Log in</h1>
-    <form id='form1' action="./Home.js">
+    <form id='form1' action="./Home">
       <div className='input1'>
         <lable forHtml="email" className="email ">Email address</lable>
         
@@ -54,7 +54,7 @@ const Login = () => {
       </form>
       
       <hr />
-      <form action="./Home.js" >
+      <form action="./Home" >
         <button type='submit' className='icons'><FontAwesomeIcon style={myStyle} icon={faGoogle} /></button>
         <button type='submit' className='icons'><FontAwesomeIcon style={myStyle} icon={faFacebook} /></button>
       <button type='submit' className='icons'><FontAwesomeIcon style={myStyle} icon={faLinkedin} /></button>
