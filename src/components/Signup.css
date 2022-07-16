@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    width:350px;
+    height: 500px;
+    text-align: center;
+    margin: 50px auto 100px;
+  }
+  .email{
+    position: relative;
+    margin: 40px 130px 0 0;
+    font-size: 14px;
+  }
+  .password{
+    position: relative;
+    margin: 40px 155px 0 0;
+    font-size: 14px;
+  }
+  .confirmpassword{
+    position: relative;
+    margin: 500px 155px 0 0;
+    font-size: 14px;
+  }
+  .input0{
+    margin: 30px auto 10px;
+    }
+  .input1{
+  margin: 30px auto 10px;
+  }
+  .input2{
+    margin: 30px auto 2px;
+    }
+    .icons{
+      border-radius: 50px 50px 50px 50px;
+      width: 35px;
+      height: 35px;
+      margin: 5px 5px 5px 5px;
+      padding: 3px 0 3px 0;
+    }
+  .form-control{
+    
+    border-radius: 10px;
+    width: 200px;
+    padding: 7px;
+  }
+  .buttonIn {
+    width: 300px;
+    position: relative;
+  }
