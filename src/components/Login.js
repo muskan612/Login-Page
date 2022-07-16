@@ -49,7 +49,7 @@ const Login = () => {
         
           
       
-      <p id='Forget'>Forget password?</p>
+      <a href='/' id='Forget'>Forget password?</a>
       <button type='submit' form='form1' className="loginform-button">LOGIN</button>
       </form>
       
