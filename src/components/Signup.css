@@ -19,17 +19,20 @@
   }
   .confirmpassword{
     position: relative;
-    margin: 500px 155px 0 0;
+    margin: 500px 155px 0 50px;
     font-size: 14px;
   }
   .input0{
-    margin: 30px auto 10px;
+    margin: 20px auto 10px;
     }
   .input1{
-  margin: 30px auto 10px;
+  margin: 20px auto 10px;
   }
   .input2{
-    margin: 30px auto 2px;
+    margin: 20px auto 2px;
+    }
+    .input3{
+      margin: 20px auto 10px;
     }
     .icons{
       border-radius: 50px 50px 50px 50px;
@@ -47,4 +50,18 @@
   .buttonIn {
     width: 300px;
     position: relative;
+  }
+  .loginform-button{
+    background-color: blue;
+    color: aliceblue;
+   
+    border-radius: 8px;
+    position: relative;
+    width: 100px;
+    padding: 5px;
+    margin: 20px auto 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .loginform-button:hover{
+    background-color: rgb(8, 8, 186);
   }

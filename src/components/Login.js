@@ -30,59 +30,60 @@ const Login = () => {
 	return (
 		<div style={{ fontFamily: "'Open Sans', sans-serif" }}>
 			<Navbar />
-			<div className='card'>
+			<div className='card1'>
 				<h1>Log in</h1>
 				<form id='form1' action='./Home'>
-					<div className='input1'>
-						<label forHtml='email' className='email '>
+					<div className='input01'>
+						<label forHtml='email' className='email1 '>
 							Email address
 						</label>
 
 						<input
 							type='email'
 							required
-							className='form-control '
+							className='form-control1 '
 							id='exampleFormControlInput1'
 							placeholder='name@gmail.com'
 						/>
 					</div>
-					<div className='input2'>
-						<label forHtml='password' className='password'>
+					<div className='input02'>
+						<label forHtml='password' className='password1'>
 							Password
 						</label>
-						<div className='buttonIn'>
+						<div className='buttonIn1'>
 							<input
-								id='eye'
+								id='eye1'
 								type={visibility}
 								required
-								pattern='(?=.*[a-z]) (?=.*[^\w\*])(?=.*[A-Z]).{4,}'
+								pattern="(?=.*\W|_)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 								title='password must contain at least 4 characters including at least one uppercase, one lowercase letter and one special character.'
-								className='form-control'
+								className='form-control1'
 								placeholder='Enter your password'
 							/>
-							<button type='button' onClick={toggleButton} className='eye'>
+							<button type='button' onClick={toggleButton} className='eye1'>
 								<FontAwesomeIcon icon={mode} />
 							</button>
+              <a href='/' id='Forget1'>
+						    Forgot password?
+					    </a>
 						</div>
 					</div>
 
-					<a href='/' id='Forget'>
-						Forgot password?
-					</a>
-					<button type='submit' form='form1' className='loginform-button'>
+					
+					<button type='submit' form='form1' className='loginform-button1'>
 						LOGIN
 					</button>
 				</form>
 
 				<hr />
 				<form action='./Home'>
-					<button type='submit' className='icons'>
+					<button type='submit' className='icons1'>
 						<FontAwesomeIcon style={myStyle} icon={faGoogle} />
 					</button>
-					<button type='submit' className='icons'>
+					<button type='submit' className='icons1'>
 						<FontAwesomeIcon style={myStyle} icon={faFacebook} />
 					</button>
-					<button type='submit' className='icons'>
+					<button type='submit' className='icons1'>
 						<FontAwesomeIcon style={myStyle} icon={faLinkedin} />
 					</button>
 				</form>

@@ -12,77 +12,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-.card {
+.card1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px;
-    width:300px;
-    height: 400px;
+   width: 300px;
+   height: 400px;
     text-align: center;
-    margin: 50px auto 100px;
+    margin: 70px auto 50px;
   }
-  .email{
+  .email1{
+    position: relative;
+    margin: 40px 110px 0 0;
+    font-size: 14px;
+  }
+  .password1{
     position: relative;
     margin: 40px 130px 0 0;
     font-size: 14px;
   }
-  .password{
-    position: relative;
-    margin: 40px 155px 0 0;
-    font-size: 14px;
+  .input01{
+  margin: 30px 0 10px 0;
   }
-  .input1{
-  margin: 30px auto 10px;
-  }
-  .input2{
-    margin: 30px auto 2px;
+  .input02{
+    margin: 30px 0 10px 0;
     }
-    .icons{
+    .icons1{
       border-radius: 50px 50px 50px 50px;
       width: 35px;
       height: 35px;
-      margin: 5px 5px 5px 5px;
+      position: relative;
+      margin: 10px 5px 10px 10px;
       padding: 3px 0 3px 0;
     }
-  .form-control{
-    
+  .form-control1{
+   
     border-radius: 10px;
-    width: 200px;
+    width: 210px;
     padding: 7px;
   }
-  .buttonIn {
+  .buttonIn1 {
     width: 300px;
     position: relative;
-  }
-  #eye{
-    margin: 0px;
-              padding: 0px;
-              width: 70%;
-              outline: none;
-              height: 30px;
-              border-radius: 10px;
-  }
-  .eye{
-    background-color:black;
     
-    position: absolute;
-              
-              z-index: 2;
+  }
+  #eye1{
+    margin: 0 ;
+              width: 210px;
+              outline: none;
+              height: 35px; 
+              border-radius: 10px; 
+  }
+  .eye1{
+    background-color:black;
+    color: white;
+    position:absolute;
+    z-index: 2;
+              border-radius: 5px;
               border: none;
               top: 2px;
-              right: 10px;
+              margin:0 100px 2px 0;
               height: 30px;
+              width: 30px;
               cursor: pointer;
-              
-              
-    
-    
+              transform: translateX(2px);
   }
-  #Forget{
+  #Forget1{
     font-size: 12px;
-    margin: 0 0 10px 130px;
+    margin: 0 0 10px 70px;
   }
-  .loginform-button{
+  .loginform-button1{
     background-color: blue;
     color: aliceblue;
    
@@ -90,10 +89,10 @@ code {
     position: relative;
     width: 100px;
     padding: 5px;
-    margin: 15px auto 20px;
+    margin: 20px 0 20px 0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  .loginform-button:hover{
+  .loginform-button1:hover{
     background-color: rgb(8, 8, 186);
   }
   
