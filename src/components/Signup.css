@@ -1,26 +1,33 @@
+.body{
+  background-image: url("C:\Users\Kaushal Shelke\Desktop\UDB\Login-Page\src\images\loginbg.jpg");
+}
+
 .card {
+  
+    margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 20px;
     width:350px;
-    height: 500px;
+    height: 520px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 50px auto 100px;
+    margin: 70px auto 10px;
   }
   .email{
     position: relative;
-    margin: 40px 130px 0 0;
-    font-size: 14px;
+    margin: 40px 90px 0 0;
+    font-size: 17px;
   }
   .password{
     position: relative;
-    margin: 40px 155px 0 0;
-    font-size: 14px;
+    margin: 40px 120px 0 0;
+    font-size: 17px;
   }
   .confirmpassword{
     position: relative;
-    margin: 500px 155px 0 50px;
-    font-size: 14px;
+    margin: 500px 110px 0 50px;
+    font-size: 17px;
   }
   .input0{
     margin: 20px auto 10px;
