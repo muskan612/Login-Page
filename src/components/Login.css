@@ -16,7 +16,7 @@ code {
 body{
   margin: 0%;
   margin-top: 12%;
-  background-image: url("C:\Users\Kaushal Shelke\Desktop\UDB\Login-Page\src\images\loginbg.jpg");
+  background-image: url('../images/loginbg.jpg');
   background-size: cover;
 }
 

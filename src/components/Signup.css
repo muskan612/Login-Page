@@ -1,5 +1,5 @@
 .body{
-  background-image: url("C:\Users\Kaushal Shelke\Desktop\UDB\Login-Page\src\images\loginbg.jpg");
+  background-image: url('../images/loginbg.jpg');
 }
 
 .card {
