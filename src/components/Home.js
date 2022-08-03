@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from './Footer';
-import Navbar from './Navbar';
+//import Navbar from './Navbar';
 import './Home.css';
 
 const Home = () => {
 	return (
 		<>
-			<Navbar />
+			
 			<div className='container'>
 				<div className='parallax'>
 					<section>Scroll Down</section>

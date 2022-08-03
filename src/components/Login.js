@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import Navbar from './Navbar';
+//import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -29,7 +29,7 @@ const Login = () => {
 
 	return (
 		<div style={{ fontFamily: "'Open Sans', sans-serif" }}>
-			<Navbar />
+			
 			<div className='card1'>
 				<h1>Log in</h1>
 				<form id='form1' action='./Home'>
