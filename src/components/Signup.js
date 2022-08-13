@@ -1,7 +1,7 @@
 import React from 'react';
 import './Signup.css';
 import '../index.css';
-import Navbar from './Navbar';
+//import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -18,10 +18,10 @@ export default function Signup() {
 	};
 	return (
 		<div>
-			<Navbar />
+			
 			<div className='card'>
 				<h1>Sign up</h1>
-				<form action='./Home.js'>
+				<form action='/'>
 					<div className='input0'>
 						<lable forHtml='email' className='email'>
 							User name
@@ -90,7 +90,7 @@ export default function Signup() {
 				<FontAwesomeIcon style={myStyle} icon={faFacebook} />
 				<FontAwesomeIcon style={myStyle} icon={faLinkedin} />
 				<p>
-					Already a user?<Link to='/'> Log in</Link>
+					Already a user?<Link to ='/'> Log in</Link>
 				</p>
 			</div>
 		</div>
