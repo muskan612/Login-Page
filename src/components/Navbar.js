@@ -1,39 +1,41 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ReactDOM } from 'react';
-import './Navbar.css';
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "./Navbar.css";
 
+export default function Navbar() {
+  const navigate = useNavigate();
+  const token = localStorage.getItem("token");
 
-export default function Navbar(props) {
-const isAuthenticated = props.isAuthenticated;
-	return (
-		<nav>
-			<ul className='list'>
-				<li className='items'>
-					<Link to='/home' style={{ textDecoration: 'none', color: 'white' }}>
-						Home
-					</Link>
-				</li>
-				<li className='items'>Services</li>
-				<li className='items'>Contact</li>
-        {!isAuthenticated && (
-			<div>
-           <Link to='/login' className='btn1'>
-            LOGIN
+  const logout = () => {
+    localStorage.removeItem("token");
+    navigate("/");
+  };
+
+  return (
+    <nav>
+      <ul className="list">
+        <li className="items">
+          <Link to="/home" style={{ textDecoration: "none", color: "white" }}>
+            Home
           </Link>
-          <Link to='/signup' className='btn2'>
-            SIGNUP
-          </Link>
-			</div>
-			)}
-          
-        {isAuthenticated && (
-          <Link to='/' className='btn3'>
+        </li>
+        <li className="items">Services</li>
+        <li className="items">Contact</li>
+        {token === "Success" ? (
+          <button className="btn2" onClick={logout}>
             LOGOUT
-          </Link>
+          </button>
+        ) : (
+          <div>
+            <Link to="/" className="btn1">
+              LOGIN
+            </Link>
+            <Link to="/signup" className="btn2">
+              SIGNUP
+            </Link>
+          </div>
         )}
-			</ul>
-		</nav>
-
-	);
+      </ul>
+    </nav>
+  );
 }
