@@ -9,5 +9,10 @@ const database = [
     email: "user2@gmail.com",
     password: "Pass@2",
   },
+  {
+    key: 3,
+    email: "p@gmail.com",
+    password: "Pb@22",
+  },
 ];
 export default database;
